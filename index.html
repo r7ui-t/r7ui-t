@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High School Portfolio | 竹川 瑠音</title>
+    <meta
+      name="description"
+      content="高校入学前のPC購入から、HTML/CSS/JS、Python、Djangoへと進んだ学習の軌跡をまとめたポートフォリオです。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise-overlay" aria-hidden="true"></div>
+
+    <header class="hero" id="top">
+      <nav class="top-nav">
+        <a class="brand" href="#top">竹川 瑠音</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#works">Works</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">HIGH SCHOOL ARCHIVE 2020-2024</p>
+        <h1>
+          試して、つまずいて、
+          <span>自分の進む言語を見つけた。</span>
+        </h1>
+        <p class="lead">
+          高校入学前に PC を購入し、プログラミングの世界へ。HTML/CSS/JS での挑戦と挫折を経て、Python と Django へ進んだ学習の記録をまとめました。
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#works">制作物を見る</a>
+          <a class="btn btn-secondary" href="#timeline">挑戦の年表へ</a>
+        </div>
+      </div>
+
+      <div class="hero-grid" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <main>
+      <section class="section about" id="about">
+        <div class="section-header reveal">
+          <p class="section-kicker">01 / ABOUT ME</p>
+          <h2>高校時代に学んだ3つのこと</h2>
+        </div>
+        <div class="about-layout">
+          <article class="about-card reveal">
+            <h3>最初の一歩は環境づくり</h3>
+            <p>
+              高校入学前に自分用の PC を購入。道具を先に整えたことで、調べる・作る・壊すを毎日繰り返せる土台ができました。
+            </p>
+          </article>
+          <article class="about-card reveal delay-1">
+            <h3>合わない道を見極める勇気</h3>
+            <p>
+              見よう見まねでフロントエンド制作を続けたものの、うまくいかず挫折しかけました。そこで「自分が本当に学びたいのは別領域かもしれない」と考え、言語選択を見直しました。
+            </p>
+          </article>
+          <article class="about-card reveal delay-2">
+            <h3>完成させる体験の価値</h3>
+            <p>
+              Python で作ったシンプルなチャットボットを友達と遊べる形で完成。規模が小さくても最後まで作る経験が、自信と次の学習意欲につながりました。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section works" id="works">
+        <div class="section-header reveal">
+          <p class="section-kicker">02 / WORKS</p>
+          <h2>高校時代の主なアウトプット</h2>
+        </div>
+        <div class="works-grid">
+          <article class="work-card reveal">
+            <p class="work-tag">HTML / CSS / JS</p>
+            <h3>簡単なマリオ風ゲーム</h3>
+            <p>
+              プログラミングに複数言語があると知り、最初に選んだのは HTML/CSS/JS。基礎学習後、ブラウザで動くシンプルな横スクロールゲームを制作しました。
+            </p>
+            <ul>
+              <li>内容: キャラクター移動、ジャンプ、障害物判定</li>
+              <li>課題: 見よう見まね実装では再現性が低い</li>
+              <li>学び: 仕組みを理解して書く重要性</li>
+            </ul>
+          </article>
+
+          <article class="work-card reveal delay-1">
+            <p class="work-tag">Python / Solo</p>
+            <h3>シンプルチャットボット</h3>
+            <p>
+              フロントエンド中心の学習から方向転換し、Python の基礎を学習。条件分岐と辞書を使った簡単なチャットボットを作成しました。
+            </p>
+            <ul>
+              <li>内容: あいさつ、簡易応答、終了コマンド</li>
+              <li>成果: 友達同士で実際に遊べる形で公開</li>
+              <li>学び: 小さくても完成させると次に進める</li>
+            </ul>
+          </article>
+
+          <article class="work-card reveal delay-2">
+            <p class="work-tag">Django / Web App</p>
+            <h3>動きのあるWebアプリ試作</h3>
+            <p>
+              Python を活かして Web アプリ開発に進みたくなり、Django を学習。フォーム送信とデータ表示を備えた小規模アプリを試作しました。
+            </p>
+            <ul>
+              <li>内容: 画面遷移、入力、一覧表示の基本実装</li>
+              <li>課題: 設計とDB理解の不足を実感</li>
+              <li>学び: バックエンド知識の必要性を認識</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline" id="timeline">
+        <div class="section-header reveal">
+          <p class="section-kicker">03 / TIMELINE</p>
+          <h2>進路が定まるまでの学習ログ</h2>
+        </div>
+
+        <div class="timeline-controls reveal">
+          <button class="chip active" data-year="all">ALL</button>
+          <button class="chip" data-year="2020">2020</button>
+          <button class="chip" data-year="2021">2021</button>
+          <button class="chip" data-year="2022">2022</button>
+          <button class="chip" data-year="2023">2023</button>
+          <button class="chip" data-year="2024">2024</button>
+        </div>
+
+        <ol class="timeline-list">
+          <li class="timeline-item reveal" data-year="2020">
+            <span class="time">2020.12</span>
+            <div>
+              <h3>高校入学前にPCを購入</h3>
+              <p>独学のための環境を用意し、毎日触れる状態を整えた。</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal" data-year="2021">
+            <span class="time">2021.06</span>
+            <div>
+              <h3>言語選択をしてWeb学習を開始</h3>
+              <p>プログラミングには多くの言語があると知り、最初は HTML/CSS/JS を選択。</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal" data-year="2022">
+            <span class="time">2022.09</span>
+            <div>
+              <h3>簡単なマリオ風ゲームを制作</h3>
+              <p>見よう見まねでも形にはできたが、理解不足で思うような改良ができず苦戦。</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal" data-year="2023">
+            <span class="time">2023.03</span>
+            <div>
+              <h3>挫折しかけた後、学習方向を転換</h3>
+              <p>フロント中心ではなく、自分はロジック実装に興味があると気づき言語変更を決断。</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal" data-year="2023">
+            <span class="time">2023.11</span>
+            <div>
+              <h3>Python基礎修了後にチャットボット作成</h3>
+              <p>簡単なBOTを完成させ、友達同士で実際に遊びながら改善した。</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal" data-year="2024">
+            <span class="time">2024.02</span>
+            <div>
+              <h3>Django学習を開始</h3>
+              <p>動きのあるWebアプリを作るため、Pythonベースのフレームワークに挑戦。</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-header reveal">
+          <p class="section-kicker">04 / SKILLS</p>
+          <h2>当時の学習スタック</h2>
+        </div>
+        <div class="skills-wrap reveal">
+          <span>HTML/CSS</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>Django</span>
+          <span>CLI</span>
+          <span>Git/GitHub</span>
+          <span>Debugging</span>
+          <span>Self Learning</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section footer" id="contact">
+      <div class="footer-inner reveal">
+        <p class="section-kicker">05 / CONTACT</p>
+        <h2>高校時代の学習記録をご覧いただき、ありがとうございます。</h2>
+        <p>
+          このページは、うまくいかなかった経験も含めて成長の流れを残すために作成しました。次は Django を使った実用アプリの完成を目標に学習を継続しています。
+        </p>
+        <a class="mail-link" href="mailto:3126055@nagoya-bunri.ac.jp">3126055@nagoya-bunri.ac.jp</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

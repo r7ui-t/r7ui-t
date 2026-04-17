@@ -1,16 +1,21 @@
-## Hi there 👋
+# High School Portfolio
 
-<!--
-**r7ui-t/r7ui-t** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+高校生の頃の活動をまとめた、1ページ構成のポートフォリオです。
 
-Here are some ideas to get you started:
+## Files
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- `index.html`: ページ本体
+- `styles.css`: レイアウトとビジュアル
+- `script.js`: スクロール表示アニメーションと年表フィルター
+
+## Preview
+
+ローカルで簡単に確認する場合は、`index.html` をブラウザで開いてください。
+
+## Customize
+
+- プロフィール文: `index.html` の `#about`
+- 制作物: `index.html` の `#works`
+- 年表: `index.html` の `#timeline`
+- 色・書体: `styles.css` の `:root`
+- 表示演出: `script.js`
