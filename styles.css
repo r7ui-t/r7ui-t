@@ -61,6 +61,16 @@ body {
   backdrop-filter: blur(4px);
 }
 
+.ai-disclosure {
+  margin: 14px 0 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line));
+  background: linear-gradient(90deg, rgba(217, 79, 53, 0.16), rgba(255, 250, 241, 0.7));
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 .brand {
   color: var(--ink);
   text-decoration: none;
@@ -328,6 +338,11 @@ body {
   .nav-links {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .ai-disclosure {
+    font-size: 0.84rem;
+    line-height: 1.5;
   }
 
   .timeline-item {
