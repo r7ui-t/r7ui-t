@@ -30,12 +30,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=r7ui-t&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
 </p>
 
-## 🏆 Trophies
-
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=r7ui-t&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophies" />
-</p>
-
 ## 🐍 Contribution Snake
 
 <p align="left">
